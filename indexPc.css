@@ -10,7 +10,6 @@ ul{list-style: none; padding: 0; margin: 0;}
 a{text-decoration: none; display: block; color: inherit;}
 
 /* header 영역 */
-header{ }
 header h1{
   font-size: 12rem;
   margin: 0;
@@ -141,9 +140,6 @@ header .marquee h2 span{ -webkit-text-fill-color: transparent; -webkit-text-stro
   padding: 16px 12px;
   font-size: 1.6rem;
   background-color: #fff;
-}
-.about_wrap .menu > li .career .year li:last-child{
-
 }
 .about_wrap .menu > li .career .career_list{
   width: 100%;
@@ -412,9 +408,8 @@ header .marquee h2 span{ -webkit-text-fill-color: transparent; -webkit-text-stro
    display: flex;
    align-items: center;
  }
- .protfolio > li:hover{ 
-   
- }
+
+
  .protfolio1:hover{
    background: url(images/port1.png) no-repeat 50% /cover;
    color: #fff;
@@ -499,6 +494,32 @@ header .marquee h2 span{ -webkit-text-fill-color: transparent; -webkit-text-stro
 } 
 .protfolio4:hover{
   background: url(images/port4.png) no-repeat 50% /cover;
+  color: #fff;
+  transition: 1s;
+}
+.protfolio5{
+  padding: 30px;
+  box-sizing: border-box;
+  border-right: 4px #000 solid;
+}
+.protfolio5 li:nth-child(1){
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.protfolio5 li:nth-child(2) a{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.protfolio5 li:nth-child(3) a{
+  font-size: 1.3rem;
+  font-weight: normal;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+.protfolio5:hover{
+  background: url(images/port5.png) no-repeat 50% / cover;
   color: #fff;
   transition: 1s;
 }
