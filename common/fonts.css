@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* 웹폰트를 사용하기 위해 사전 설정 작업 */
+@font-face{
+  /* 사용자 정의 이름이지만 효율성을 위해 원래 이름 그대로 작성하는 편 */
+  font-family: 'Spoqa Han Sans Neo R';
+  src: url('fonts/SpoqaHanSansNeoRegular.woff2') format('woff2'),
+  url('fonts/SpoqaHanSansNeoRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 'Spoqa Han Sans Neo L' */
+@font-face{
+  font-family: 'Spoqa Han Sans Neo L';
+  src: url('fonts/SpoqaHanSansNeoLight.woff2') format('woff2'),
+  url('fonts/SpoqaHanSansNeoLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 'Spoqa Han Sans Neo M' */
+@font-face{
+  font-family: 'Spoqa Han Sans Neo M';
+  src: url('fonts/SpoqaHanSansNeoMedium.woff2') format('woff2'),
+  url('fonts/SpoqaHanSansNeoMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
